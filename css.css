@@ -1,28 +1,94 @@
-/*<link href="css.css" rel="stylesheet">*/
-#a {
-	width: 200px;
-	height: 100px;
-	animation: an 10s ease-in-out infinite;
-	  background: url("./images/a.svg") no-repeat;
+.candleInTheWind {
 
+  animation-name: candleInTheWind;
+  animation-duration: 1s;
+  animation-fill-mode: infinite;
 }
 
-#b {
-	
-	width: 200px;
-	height: 100px;
-	animation: flip 5s linear infinite;
-	  background: url("./images/b.svg") no-repeat;}
+@keyframes candleInTheWind {
+  0% {
+    opacity: 0;
+  }
 
+  4% {
+    opacity: 1;
+    transform: skewX(-10deg);
+  }
+
+  25% {
+    opacity: 0.75;
+  }
+
+  
+  50% {
+    opacity: 1
+  }
+
+  62.5% {
+    opacity: .75;
+  }
+
+  90% {
+    opacity: 1;
+    
+  }
+
+  97% {
+   
+    opacity: 1;
+  }
+
+  100% {
+    transform: skewX(-10deg);
+    opacity: 0;
+  }
+}
+@keyframes iWanChuBack {
+  0% {transform: scale3d(0.1, 0.1, 0.1);
+    opacity: 0;}
+
+  5% {transform: scale3d(1, 1, 1);
+    opacity: 1;
+      }
+
+  90% {transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+100%{  transform: scale3d(0.1, 0.1, 0.1);
+opacity: 0;}
+  
+}
+
+@keyframes heartBeat {
+  0% {    transform: scale(0);  }
+  5% {    transform: scale(1);  }
+  90% {    transform: scale(1);  }
+  100% {    transform: scale(0);  }
+  }
+}
+
+.heartBeat {
+  animation-name: heartBeat;
+  animation: heartBeat 0.33s infinite;}
+
+
+
+@keyframes ani {
+0% {opacity: 0 }
+48% {opacity: 0;}
+50% {opacity: 1; transform: scale(0);}
+52% {top:5%;transform: scale(1);}
+63% {top:5%;transform: scale(1);}
+65% {top:43%;transform: scale(.7,1.4);}
+80% {top:43%;transform: scale(.7,1.4);}
+82% {top:72%;transform: scale(.8,1.4);}
+100% {top:72%;transform: scale(.8,1.4);}}
 
 @keyframes an {
-0% {opacity: 0;
--moz-transform: scale(0.5) rotateY(180deg);}
-10% {opacity: 1;
-	transform: scale(1) rotateY(0deg);}
-90% {opacity: 1;}
-100% {opacity: 0;	}}
-
+0% {opacity: 0;}
+48% {opacity: 0;}
+50% {opacity: 1;}
+100% {opacity: 1; }}
 
 @keyframes flip {
   /*0% {    transform: scale(1) rotate3d(-1, 1, 0, -180deg);  }*/
@@ -32,21 +98,6 @@
   20% {    transform: scale(.8) rotate3d(1, 1, 0, 0deg);}
 900% {opacity: 1;}
 100% {opacity: 0;}}
-
-
-
-    HTML CSS JS 
-
-    Result
-    Skip Results Iframe
-
-EDIT ON
-
-/*
- * Date updated: 01/02/2018
- * Currently re-designing, npm 
- */
-
 
 
 @keyframes gettinInYoFace {
@@ -157,30 +208,9 @@ EDIT ON
   animation-duration: 3s;
 }
 
-@keyframes iWanChuBack {
-  0% {
-    opacity: 1;
-  }
 
-  25% {
-    opacity: 1;
-    transform: scale3d(0.1, 0.1, 0.1);
-  }
 
-  50% {
-    opacity: 1;
-    transform: scale3d(0.1, 0.1, 0.1);
-  }
 
-  to {
-    opacity: 1;
-  }
-}
-
-.iWanChuBack {
-  animation-name: iWanChuBack;
-  animation-duration: 3s;
-}
 
 @keyframes lawnMower {
   0% {
@@ -232,53 +262,7 @@ EDIT ON
   animation-duration: 2s;
 }
 
-.candleInTheWind {
-  opacity: 0;
-  animation-name: candleInTheWind;
-  animation-duration: 0.7s;
-  animation-fill-mode: forwards;
-}
 
-@keyframes candleInTheWind {
-  0% {
-    opacity: 0;
-  }
-
-  12.5% {
-    opacity: 0.25;
-    transform: skewX(-10deg);
-  }
-
-  25% {
-    opacity: 0;
-  }
-
-  37.5% {
-    opacity: 0;
-    transform: skewX(-10deg);
-  }
-
-  50% {
-    opacity: 0.75;
-  }
-
-  62.5% {
-    opacity: 0;
-  }
-
-  75% {
-    opacity: 1;
-    transform: skewX(-5deg);
-  }
-
-  87.5% {
-    opacity: 0.5;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
 
 .highlighter {
   animation-name: highlighter;
@@ -343,27 +327,11 @@ EDIT ON
 .nope {
   animation-name: nope;
 
-  animation-duration: 2s;
+  animation-duration: 20s;
   animation-timing-function: ease-in-out;
 }
 
-@keyframes heartBeat {
-  from {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  to {
-    transform: scale(1.1);
-  }
-}
 
-.heartBeat {
-  animation-name: heartBeat;
-  animation: heartBeat 0.66s alternate;
-  animation-iteration-count: 8;
-}
 
 @keyframes sleepyEyes {
   0% {

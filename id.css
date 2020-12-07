@@ -1,0 +1,63 @@
+#c {
+    position: absolute;
+    width: 420px;
+    height: 150px;
+	  animation: an 20s linear infinite;
+	  background-color: #a6d2eb;}
+
+#k {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 5%;
+    top: 5%;
+    background: url("./images/k.svg") no-repeat;
+    animation: ani 20s ease-in-out infinite;}
+
+
+#a {
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    width: 100%;
+  height: 100%;
+  animation: heartBeat 10s ease-in infinite;
+    background: url("./images/a.svg") no-repeat;
+}
+
+#m {
+  position: absolute;
+    width: 420px;
+  height: 420px;
+  animation: iWanChuBack 10s ease-in-out infinite;
+    background: url("./images/ma.jpg") no-repeat;
+}
+
+
+#b {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+  top: 84%;
+  left: 2%;
+	animation: candleInTheWind 10s linear infinite;
+	  background: url("./images/b.svg") no-repeat;}
+
+  #l {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 7%;
+  left: 7%;
+  animation: an 20s linear infinite;
+    background: url("./images/l.svg") no-repeat;}
+
+
+body, html {
+  background-color: #000;}
+#wrap {
+  position: relative;
+  width: 420px;
+  height: 150px;
+  overflow: hidden;
+}
