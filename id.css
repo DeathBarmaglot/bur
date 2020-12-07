@@ -2,7 +2,7 @@
     position: absolute;
     width: 420px;
     height: 150px;
-	  animation: an 20s linear infinite;
+	  animation: an 12s linear infinite;
 	  background-color: #a6d2eb;}
 
 #k {
@@ -12,7 +12,7 @@
     left: 4%;
     top: 5%;
     background: url("./images/k.svg") no-repeat;
-    animation: ani 20s ease-in-out infinite;}
+    animation: ani 12s ease-in-out infinite;}
 
 
 #a {
@@ -21,7 +21,7 @@
     top: 2%;
     width: 100%;
   height: 100%;
-  animation: heartBeat 10s ease-in infinite;
+  animation: heartBeat 6s ease-in infinite;
     background: url("./images/a.svg") no-repeat;
 }
 
@@ -29,7 +29,7 @@
   position: absolute;
     width: 420px;
   height: 420px;
-  animation: iWanChuBack 10s ease-in-out infinite;
+  animation: iWanChuBack 6s ease-in-out infinite;
     background: url("./images/ma.jpg") no-repeat;
 }
 
@@ -40,7 +40,7 @@
 	height: 100%;
   top: 84%;
   left: 2%;
-	animation: candleInTheWind 10s linear infinite;
+	animation: candleInTheWind 6s linear infinite;
 	  background: url("./images/b.svg") no-repeat;}
 
   #l {
@@ -49,7 +49,7 @@
   height: 100%;
   top: 7%;
   left: 7%;
-  animation: an 20s linear infinite;
+  animation: an 12s linear infinite;
     background: url("./images/l.svg") no-repeat;}
 
 
