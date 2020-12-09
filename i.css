@@ -1,0 +1,17 @@
+@keyframes gettinInYoFace {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(100);
+  }
+}
+
+.gettinInYoFace {
+  animation-timing-function: ease-in-out;
+  animation-name: gettinInYoFace;
+  animation-duration: 3s;
+}
